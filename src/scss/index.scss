@@ -1,3 +1,4 @@
+$color: #fff;
 * {
   margin: 0px;
   padding: 0px;
@@ -6,5 +7,25 @@
 
 body {
   margin-top: 70px;
-  background-color: grey;
+  background-color: #333;
+  color: #fff;
+}
+
+.card {
+  padding: 10px;
+}
+
+.card-primary {
+  background-color: #00796b;
+  color: $color;
+}
+
+.card-success {
+  background-color: #5c6bc0;
+  color: $color;
+}
+
+.card-danger {
+  background-color: #7c4dff;
+  color: $color;
 }

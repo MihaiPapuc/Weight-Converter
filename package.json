@@ -1,0 +1,17 @@
+{
+  "name": "Weight-Converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel src/views/*.html",
+    "build": "parcel build src/views/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
